@@ -1,0 +1,104 @@
+/******* GLOBAL *******/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(65,34,119);
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/******* HEADER *******/
+
+header h1{
+    color: rgb(255, 255, 255)
+}
+
+/******* MAIN *******/
+
+section.calcSect {
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 60%;
+    border-radius: 2.5%;
+}
+
+div.digiteNotas {
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+    justify-content: center;
+    height: 18%;
+    gap: 2%;
+}
+
+div.digiteNotas input {
+    height: 23.75%;
+    width: 60%;
+    border: solid 1px rgb(0, 0, 0)
+}
+
+
+div.digiteNotas button {
+    height: 30%;
+}
+
+div.digiteNotas label {
+    position: relative;
+    left: 1%;
+}
+
+div.notasAlunos {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.notasAlunos div {
+    width: 90%;
+    height:100%;
+    border: solid 1px rgb(0, 0, 0);
+    overflow: auto;
+}
+
+div.calcMedia {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: flex-start ;
+    justify-content: center;
+}
+
+div.calcMedia button {
+    width: auto;
+    position: relative;
+    left: 2%;
+}
+
+div.calcMedia p{
+    position: relative;
+    left: 2.5%;
+}
